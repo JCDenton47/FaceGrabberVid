@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="PS_Mixer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SimpleMath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceGrabberVid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FaceGrabber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceSwapper.cpp" />
+    <ClCompile Include="src\WzSerialPort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PS_Mixer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SimpleMath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dlib_includes.h">
+      <Filter>头文件\包含类</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opencv_includes.h">
+      <Filter>头文件\包含类</Filter>
+    </ClInclude>
+    <ClInclude Include="src\torch_lib_includes.h">
+      <Filter>头文件\包含类</Filter>
+    </ClInclude>
+    <ClInclude Include="src\std_includes.h">
+      <Filter>头文件\包含类</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>头文件\包含类</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketManager.h">
+      <Filter>头文件\Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IMessageManager.h">
+      <Filter>头文件\Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MesManagerFactory.h">
+      <Filter>头文件\Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FaceGrabber.h">
+      <Filter>头文件\PictureParser</Filter>
+    </ClInclude>
+    <ClInclude Include="IPicParser.h">
+      <Filter>头文件\PictureParser</Filter>
+    </ClInclude>
+    <ClInclude Include="FaceSwapper.h" />
+    <ClInclude Include="src\WzSerialPort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\XIUSDK_BeautyEngine.h">
+      <Filter>头文件\美化类</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\XIUSDK_PhotoEngine.h">
+      <Filter>头文件\美化类</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\YNFaceDetector.h">
+      <Filter>头文件\美化类</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\YNTypes.h">
+      <Filter>头文件\美化类</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{c68f278c-9537-4d2b-a5f9-ea0c9a067636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{9fe1f1bd-d4bf-4b67-b436-1bb0ab6190fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\包含类">
+      <UniqueIdentifier>{8000b36d-1f31-444e-b08d-8e0ed59aa5f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Comm">
+      <UniqueIdentifier>{b01fba66-4c5d-4e45-9364-cf126eadc52d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\PictureParser">
+      <UniqueIdentifier>{6b0eb66d-beaf-4c51-b8e0-938d20ac895c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\美化类">
+      <UniqueIdentifier>{1f833cce-612e-47ae-9392-b88f632732f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
